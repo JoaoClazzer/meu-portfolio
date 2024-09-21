@@ -1,0 +1,23 @@
+:root {
+    --verde-claro: #c8e6c9;
+    --verde-medio: #4caf50;
+    --verde-escuro: #228B22;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--verde-claro);
+  }
+  
+  .navbar {
+    background-color: var(--verde-medio);
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    color: white;
+  }
+  
+  h2 {
+    color: var(--verde-escuro);
+  }
